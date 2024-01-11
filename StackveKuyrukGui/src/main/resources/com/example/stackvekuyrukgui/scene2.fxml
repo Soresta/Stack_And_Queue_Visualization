@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" style="-fx-background-color: rgb(23,23,23);" stylesheets="@style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stackvekuyrukgui.controller2">
+   <children>
+      <Line endX="270.0" layoutX="315.0" layoutY="263.0" startX="-100.0" stroke="WHITE" />
+      <Line endX="270.0" layoutX="315.0" layoutY="192.0" startX="-100.0" stroke="WHITE" />
+      <Pane prefHeight="72.0" prefWidth="800.0" style="-fx-background-color: rgb(46,46,70);">
+         <children>
+            <Button layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#creat" prefHeight="30.0" prefWidth="125.0" styleClass="btn" text="Oluştur">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="176.0" layoutY="17.0" mnemonicParsing="false" onAction="#push" prefHeight="30.0" prefWidth="125.0" styleClass="btn" text="Ekle">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="503.0" layoutY="17.0" mnemonicParsing="false" onAction="#pop" prefHeight="30.0" prefWidth="125.0" styleClass="btn2" text="Çıkar">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="338.0" layoutY="17.0" mnemonicParsing="false" onMousePressed="#show" onMouseReleased="#dontShow" prefHeight="30.0" prefWidth="125.0" styleClass="btn1" stylesheets="@style.css" text="Göster">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="661.0" layoutY="17.0" mnemonicParsing="false" onAction="#clear" prefHeight="30.0" prefWidth="125.0" styleClass="btn3" text="Temizle">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <TextField fx:id="nameArea" focusTraversable="false" layoutX="14.0" layoutY="91.0" prefHeight="38.0" prefWidth="162.0" promptText="Enter Your Name" style="-fx-background-color: rgb(23,23,23); -fx-text-fill: white; -fx-border-color: white;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button layoutX="660.0" layoutY="91.0" mnemonicParsing="false" onAction="#switchScene2" prefHeight="30.0" prefWidth="125.0" styleClass="btn4" text="Stack">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="372.0" layoutY="155.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" text="Kuyruk">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Text>
+      <Text fx:id="sizeTxt" fill="WHITE" layoutX="14.0" layoutY="631.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" text="Kuyruk Boyutu : ">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
