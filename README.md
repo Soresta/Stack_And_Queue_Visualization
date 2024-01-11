@@ -2,6 +2,12 @@
 
 Bu proje, Java dilinde ve JavaFX kullanılarak geliştirilmiş bir masaüstü görselleştirme uygulamasıdır. Uygulama, stack ve kuyruk veri yapılarının temel işlemleri olan ekleme ve çıkarma işlemlerini animasyonlu bir şekilde gösterir.
 
+## Video
+- **Aşşağıdaki Fotoğrafa Tıklayarak Kurulum Ve Tanıtım Videosuna Ulaşabilirsiniz.**
+
+[![Kurulum ve Tanıtım Videosu](https://github.com/Soresta/Stack_And_Queue_Visualization/assets/112137968/38bb81fe-16f5-4536-af3f-f18feac576b6)
+](https://youtu.be/ucvt9x3b3LI?si=ysjWszILEf-XJSBX)
+
 ## Başlarken
 
 Bu bölüm, projeyi yerel makinenizde çalıştırmanız için gereken adımları içerir.
